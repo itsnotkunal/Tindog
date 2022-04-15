@@ -1,0 +1,138 @@
+#title{
+    background-color: #ff4c68;
+}
+h1{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: white;
+}
+h2{
+    font-size: 2.5rem;
+    line-height: 1.5;
+    
+}
+
+h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2.5rem;
+    line-height: 1.5;
+    color: rgb(15, 14, 14);
+}
+p{
+    color: grey;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container-fluid{
+    padding: 3%  15% 7%;
+    
+}
+.navbar-brand{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 2.5rem;
+}
+body{
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+.navbar{
+    padding-bottom: 4.5rem;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size:1.1rem ;
+}
+
+.title-image{
+    width: 25%;
+  transform: rotate(25deg);
+  position: absolute;
+  
+}
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+.fa-solid{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.fa-solid:hover{
+    color: #ff4c68;
+
+}
+
+#features{
+    padding:7% 5% ;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+.feature-box{
+    text-align: center;
+    padding: 4.5%;
+}
+.feature-title{
+    font-size: 1.5rem;
+}
+
+#testimonials{
+    
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+#pricing{
+    padding: 100px;
+}
+.pricing-coloum{
+    padding: 3% 2%;
+}
+
+@media(max-width: 1028px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+         transform: rotate(0)
+    }
+
+}
+#pricing{
+    text-align: center;
+}
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 7% 15%;
+}
+#footer{
+    text-align: center;
+}
+.social{
+    padding: 20px ;}
+
+.cta-title{
+    color: white;
+}
